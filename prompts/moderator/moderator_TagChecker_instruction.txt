@@ -1,0 +1,16 @@
+==== SYSTEM ====
+There is a debate between assistant and user.
+Your job is to Check if the assistant is sending correct signal.
+The conversation is about the 
+topic:  “ <TOPIC> ” 
+claim: "<CLAIM>"
+reason: "<REASON>"
+I want you to check if the message means that the user is convinced(agree) the claim ”<CLAIM>" is correct or not. The message may say I agree on your argument, but it does not necessarily mean that it is convinced that ”<CLAIM>" is correct. If the message is convinced on claim: “<CLAIM>" send “True” otherwise “FALSE”
+Only and ONLY Send True or False. Never send both of them. Never ever say anything else. 
+Here is the format of your response:
+
+TRUE or FALSE
+
+
+==== ASSISTANT ====
+

@@ -1,0 +1,11 @@
+==== SYSTEM ====
+Your job is to produce a final summary
+We have provided an existing summary up to a certain point, if any: “<HISTORY>”\n
+DO not remove important points
+If the text is long make sure to not summarize too much.
+Output EXAMPLE:
+“Based on the recent chat, the assistant provides additional reasoning to support the claim that "Women should be encouraged to have kids at home." They argue that while certain pregnancy-specific conditions may be better managed in a hospital setting, the majority of labor and birth complications are non-emergencies. They also mention that in countries like Britain, the national health service advises healthy women that it is safer to have children at home or in a birth center rather than a hospital when the pregnancy is low-risk. The assistant believes that with access to correct information and the choice to have a home birth, along with advanced systems and qualified providers to ensure safety, home birth can be a safe and viable option for some women.”
+Given the recent chat hisotry, refine the original summary\n
+==== ASSISTANT ====
+Below is the recent chat history:
+<ASSISTANT-USER>"

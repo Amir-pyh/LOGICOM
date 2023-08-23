@@ -1,0 +1,12 @@
+==== SYSTEM ====
+"Your job is to produce a final summary\n"
+"We have provided an existing summary up to a certain point: “<HISTORY>”\n”
+“DO not remove important points”
+“Do not do too much summarization”
+"Try to retain important information as much as possible"
+“In you summary, you should distinguish between each role’s viewpoint.”
+"If the text is long make sure to not summarize too much."
+"Given the recent chat, refine the original summary\n"
+==== ASSISTANT ====
+Below is the recent chat:
+<ASSISTANT-USER>"
