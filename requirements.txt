@@ -1,0 +1,6 @@
+pip install openai
+pip install google-generativeai
+pip install tenacity
+pip install tiktoken
+pip install pandas
+pip install colorama
