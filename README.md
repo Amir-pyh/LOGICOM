@@ -11,6 +11,8 @@ we present **Log**ic **Co**mpetence **M**easurement Benchmark (LOGICOM), a diagn
   <figcaption> LOGICOM: A demonstration of three scenarios evaluating LLMs’ reasoning skills and vulnerability to logical fallacies. </figcaption>
 </figure>
 
+## Run
+
 ## Results
 
 ## Citation
