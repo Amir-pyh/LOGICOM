@@ -1,5 +1,5 @@
-# LOGICOM
-To be updated
+# LOGICOM (To be updated)
+
 [How susceptible are LLMs to Logical Fallacies?](https://arxiv.org/abs/2308.09853)
 
 This work investigates the rational thinking capability of
