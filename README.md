@@ -5,11 +5,14 @@ To be updated
 This work investigates the rational thinking capability of
 Large Language Models (LLMs) in multi-round argumentative debate
 we present **Log**ic **Co**mpetence **M**easurement Benchmark (LOGICOM), a diagnostic benchmark to assess the robustness of LLMs against logical fallacies.
+
 <figure>
   <img src="https://github.com/Amir-pyh/LOGICOM/blob/main/figs/LOGICOM-LARG.png" alt="Alt text for image" style="width:100%">
   <figcaption> LOGICOM: A demonstration of three scenarios evaluating LLMs’ reasoning skills and vulnerability to logical fallacies. </figcaption>
 </figure>
+
 ## Results
+
 ## Citation
 ```bibtex
 @misc{payandeh2023susceptible,
