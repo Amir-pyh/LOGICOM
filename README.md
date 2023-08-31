@@ -1,6 +1,7 @@
 # LOGICOM
 To be updated
 ## Citation
+```bibtex
 @misc{payandeh2023susceptible,
       title={How susceptible are LLMs to Logical Fallacies?}, 
       author={Amirreza Payandeh and Dan Pluth and Jordan Hosier and Xuesu Xiao and Vijay K. Gurbani},
@@ -9,3 +10,4 @@ To be updated
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
+```
