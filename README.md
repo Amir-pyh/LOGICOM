@@ -19,12 +19,13 @@ python main.py --api_key_openai <insert your OpenAI API key> --api_key_palm <ins
 **RQ1**: Can large language models (with fixed weights)
 change their opinions through reasoning when faced with
 new arguments?
+
 **RQ2**:Are large language models susceptible to fallacious
 reasoning?
 To address this question, we use the two analysis approaches
 described below:
 
-In the second analysis, we aggregate the total number of successes of the persuader in each scenario and then average them over three repetitions. Then, we compare the average
+In the first analysis, we aggregate the total number of successes of the persuader in each scenario and then average them over three repetitions. Then, we compare the average
 number of each scenario to measure the debater agent’s susceptibility to fallacious arguments.
 
 <figure>
