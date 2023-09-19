@@ -1,4 +1,4 @@
-# LOGICOM (To be updated)
+# LOGICOM
 
 [How susceptible are LLMs to Logical Fallacies?](https://arxiv.org/abs/2308.09853)
 
