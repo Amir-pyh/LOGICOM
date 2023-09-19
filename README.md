@@ -20,6 +20,12 @@ python main.py --api_key_openai <insert your OpenAI API key> --api_key_palm <ins
 change their opinions through reasoning when faced with
 new arguments?
 
+<figure>
+  <img src="https://github.com/Amir-pyh/LOGICOM/blob/main/figs/Q1.png" alt="Alt text for image" style="width:100%">
+  <figcaption> Percentage of instances in which the debater agent changes
+its stance from disagreement to agreement. </figcaption>
+</figure>
+
 **RQ2**:Are large language models susceptible to fallacious
 reasoning?
 To address this question, we use the two analysis approaches
