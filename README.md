@@ -16,13 +16,46 @@ we present **Log**ic **Co**mpetence **M**easurement Benchmark (LOGICOM), a diagn
 python main.py --api_key_openai <insert your OpenAI API key> --api_key_palm <insert your PaLM API key> --helper_prompt_instruction <No_Helper|Fallacy_Helper|Vanilla_Helper>
 ```
 ## Results
-we aggregate the total number of successes of the persuader in each scenario and then average them over three repetitions. Then, we compare the average
+**RQ1**: Can large language models (with fixed weights)
+change their opinions through reasoning when faced with
+new arguments?
+**RQ2**:Are large language models susceptible to fallacious
+reasoning?
+To address this question, we use the two analysis approaches
+described below:
+
+In the second analysis, we aggregate the total number of successes of the persuader in each scenario and then average them over three repetitions. Then, we compare the average
 number of each scenario to measure the debater agent’s susceptibility to fallacious arguments.
 
 <figure>
   <img src="https://github.com/Amir-pyh/LOGICOM/blob/main/figs/Q2-1.png" alt="Alt text for image" style="width:100%">
   <figcaption> The average, taken from three repetitions, in which the persuader agent successfully convinced the debater agent for each scenario. </figcaption>
 </figure>
+
+In the second analysis, we calculate the total number of successes of the persuader agent for each claim in
+each scenario and then average these over three repetitions
+for that specific claim. This approach involves counting the
+number of times the debater agent agrees with the claim out
+of the three repetitions. In other words, across three repetitions, we calculate the average number of times the persuader agent successfully convinced the debater agent for
+each claim in every scenario
+
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/Amir-pyh/LOGICOM/blob/main/figs/Q2-2-GPT-3_5.png" alt="Alt text for image 1" style="width:100%">
+    </td>
+    <td>
+      <img src="https://github.com/Amir-pyh/LOGICOM/blob/main/figs/Q2-2-GPT-4.png" alt="Alt text for image 2" style="width:100%">
+    </td>
+  </tr>
+</table>
+<figcaption> Analyzing the susceptibility of GPT models to fallacious arguments. In the consistent agreement instances (“Three Success”), it
+shows a higher level of success rate for fallacious persuader compared to the logical persuaders for both GPT-3.5 and GPT-4 debater agents.
+Furthermore, the number of instances in the bar chart groups for “One Success” and “Two Success” can be seen as indications of level of
+inconsistency in debater agent’s reasoning which is higher in GPT-3.5 compared to GPT-4. </figcaption>
+
+
 
 ## Citation
 ```bibtex
