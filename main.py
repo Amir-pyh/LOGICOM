@@ -242,6 +242,12 @@ def main(arg):
                                                      presence_penalty=0.0,
                                                      frequency_penalty=0.0
                                                      )
+        if arg.helper_prompt_instruction != 'No_Helper':
+            
+            helper_feedback_switch=True
+        else:
+            helper_feedback_switch=False
+
 
         r''' Initialize the Persuader Agent'''
         persuader_agent = PersuaderAgent(
@@ -252,7 +258,7 @@ def main(arg):
             prompt_instruction_path='prompts/persuader/%s.txt' % arg.persuader_instruction,
             variables=get_variables(data.loc[i], AgentType.PERSUADER_AGENT),
             memory_prompt_instruction_path='prompts/summary/%s.txt' % arg.memory_instruction,
-            helper_feedback=False)
+            helper_feedback=helper_feedback_switch)
 
         if arg.helper_prompt_instruction != 'No_Helper':
             if not persuader_agent.helper_feedback_switch:

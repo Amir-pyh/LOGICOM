@@ -12,6 +12,7 @@ we present **Log**ic **Co**mpetence **M**easurement Benchmark (LOGICOM), a diagn
 </figure>
 
 ## Run
+python main.py --api_key_openai <insert your OpenAI API key> --api_key_palm <insert your PaLM API key> --helper_prompt_instruction <No_Helper|Fallacy_Helper|Vanilla_Helper>
 
 ## Results
 
