@@ -33,6 +33,7 @@ number of each scenario to measure the debater agent’s susceptibility to falla
   <figcaption> The average, taken from three repetitions, in which the persuader agent successfully convinced the debater agent for each scenario. </figcaption>
 </figure>
 
+
 In the second analysis, we calculate the total number of successes of the persuader agent for each claim in
 each scenario and then average these over three repetitions
 for that specific claim. This approach involves counting the
