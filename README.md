@@ -20,8 +20,11 @@ python main.py --api_key_openai <insert your OpenAI API key> --api_key_palm <ins
 change their opinions through reasoning when faced with
 new arguments?
 
+We calculate the ratio of debates where the debater agent begins by disagreeing but ends up agreeing with
+the persuader agent to all debates in which the debater starts
+with disagreement.
 <figure>
-  <img src="https://github.com/Amir-pyh/LOGICOM/blob/main/figs/Q1.png" alt="Alt text for image" style="width:100%">
+  <img src="https://github.com/Amir-pyh/LOGICOM/blob/main/figs/Q1.png" alt="Alt text for image" style="width:80%">
   <figcaption> Percentage of instances in which the debater agent changes
 its stance from disagreement to agreement. </figcaption>
 </figure>
