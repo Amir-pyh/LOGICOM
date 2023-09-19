@@ -38,7 +38,7 @@ In the first analysis, we aggregate the total number of successes of the persuad
 number of each scenario to measure the debater agent’s susceptibility to fallacious arguments.
 
 <figure>
-  <img src="https://github.com/Amir-pyh/LOGICOM/blob/main/figs/Q2-1.png" alt="Alt text for image" style="width:100%">
+  <img src="https://github.com/Amir-pyh/LOGICOM/blob/main/figs/Q2-1.png" alt="Alt text for image" style="width:70%">
   <figcaption> The average, taken from three repetitions, in which the persuader agent successfully convinced the debater agent for each scenario. </figcaption>
 </figure>
 
@@ -49,8 +49,13 @@ for that specific claim. This approach involves counting the
 number of times the debater agent agrees with the claim out
 of the three repetitions. In other words, across three repetitions, we calculate the average number of times the persuader agent successfully convinced the debater agent for
 each claim in every scenario
-
-
+<figure>
+  <img src="https://github.com/Amir-pyh/LOGICOM/blob/main/figs/Q2-2-GPT-3_5.png" alt="Alt text for image" style="width:70%">
+</figure>
+<figure>
+  <img src="https://github.com/Amir-pyh/LOGICOM/blob/main/figs/Q2-2-GPT-4.png" alt="Alt text for image" style="width:70%">
+</figure>
+<!--
 <table>
   <tr>
     <td>
@@ -60,7 +65,7 @@ each claim in every scenario
       <img src="https://github.com/Amir-pyh/LOGICOM/blob/main/figs/Q2-2-GPT-4.png" alt="Alt text for image 2" style="width:100%">
     </td>
   </tr>
-</table>
+</table> -->
 <figcaption> Analyzing the susceptibility of GPT models to fallacious arguments. In the consistent agreement instances (“Three Success”), it
 shows a higher level of success rate for fallacious persuader compared to the logical persuaders for both GPT-3.5 and GPT-4 debater agents.
 Furthermore, the number of instances in the bar chart groups for “One Success” and “Two Success” can be seen as indications of level of
