@@ -26,7 +26,9 @@ with disagreement.
 <figure>
   <img src="https://github.com/Amir-pyh/LOGICOM/blob/main/figs/Q1.png" alt="Alt text for image" style="width:50%">
   <figcaption> Percentage of instances in which the debater agent changes
-its stance from disagreement to agreement. </figcaption>
+its stance from disagreement to agreement.
+
+ </figcaption>
 </figure>
 
 **RQ2**:Are large language models susceptible to fallacious
