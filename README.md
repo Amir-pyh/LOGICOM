@@ -7,7 +7,7 @@ Large Language Models (LLMs) in multi-round argumentative debate
 we present **Log**ic **Co**mpetence **M**easurement Benchmark (LOGICOM), a diagnostic benchmark to assess the robustness of LLMs against logical fallacies.
 
 <figure>
-  <img src="https://github.com/Amir-pyh/LOGICOM/blob/main/figs/LOGICOM-LARG.png" alt="Alt text for image" style="width:100%">
+  <img src="https://github.com/Amir-pyh/LOGICOM/blob/main/figs/LOGICOM.png" alt="Alt text for image" style="width:100%">
   <figcaption> LOGICOM: A demonstration of three scenarios evaluating LLMs’ reasoning skills and vulnerability to logical fallacies. </figcaption>
 </figure>
 
@@ -16,6 +16,13 @@ we present **Log**ic **Co**mpetence **M**easurement Benchmark (LOGICOM), a diagn
 python main.py --api_key_openai <insert your OpenAI API key> --api_key_palm <insert your PaLM API key> --helper_prompt_instruction <No_Helper|Fallacy_Helper|Vanilla_Helper>
 ```
 ## Results
+we aggregate the total number of successes of the persuader in each scenario and then average them over three repetitions. Then, we compare the average
+number of each scenario to measure the debater agent’s susceptibility to fallacious arguments.
+
+<figure>
+  <img src="https://github.com/Amir-pyh/LOGICOM/blob/main/figs/Q2-1.png" alt="Alt text for image" style="width:100%">
+  <figcaption> The average, taken from three repetitions, in which the persuader agent successfully convinced the debater agent for each scenario. </figcaption>
+</figure>
 
 ## Citation
 ```bibtex
